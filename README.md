@@ -8,6 +8,7 @@
 - APRESENTAÇÃO: 28/06
 
 # TO DO
+- Ler a introdução dos 3 artigos
 - Montar arquitetura geral da solução: quantas redes? qual será a base? vai rolar tradução? vai testar na prática?
 - 
 - Estudar WikiSQL
