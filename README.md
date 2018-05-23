@@ -8,9 +8,9 @@
 - APRESENTAÇÃO: 28/06
 
 # TO DO
+- Estudando WikiSQL
+
 - Montar arquitetura geral da solução: quantas redes? qual será a base? vai rolar tradução? vai testar na prática?
-- 
-- Estudar WikiSQL
 - Estudar/Executar SQLNet
 - Criar dataset português -> SQL? Precisa?
 - Estudar/Executar alguma rede neural que traduza de português para inglês
