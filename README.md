@@ -14,6 +14,7 @@
 - Estudar/Executar SQLNet
 - Criar dataset português -> SQL? Precisa?
 - Estudar/Executar alguma rede neural que traduza de português para inglês
+- Escrever artigo
 
 # DONE
 - 
