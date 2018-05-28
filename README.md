@@ -1,6 +1,6 @@
 # TIME
-- Week 1: 21/05 até 27/05 DOING
-- Week 2: 28/05 até 03/06
+- Week 1: 21/05 até 27/05 - DONE
+- Week 2: 28/05 até 03/06 - DOING
 - Week 3: 04/06 até 10/06
 - Week 4: 11/06 até 17/06
 - Week 5: 18/06 até 24/06
@@ -8,7 +8,9 @@
 - APRESENTAÇÃO: 28/06
 
 # TO DO
-- Estudando WikiSQL
+- Rodando WikiSQL ok
+- Rodando SQLNet
+
 
 - Montar arquitetura geral da solução: quantas redes? qual será a base? vai rolar tradução? vai testar na prática?
 - Estudar/Executar SQLNet
