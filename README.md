@@ -22,6 +22,20 @@
 - 
 - 
 - 
+# COMO INSTALAR SQLNET
+- download do git
+- extrair zip
+- tar -xjvf data.tar.bz2
+- pip install torch torchvision
+- pip install -r requirements.txt
+
+
+- estou tentando fazer o script python extract_vocab.py rodar. Estou baixando o glove.42B.300z.zip. Depois vou extrair e rodar o script de novo.
+
+
+
+
+
 
 # trabalhoIA2
 Código do trabalho 2 da disciplina Inteligência Artificial do doutorado no Instituto de Computação da UFF no primeiro semestre de 2018.
