@@ -10,6 +10,13 @@
 -- Ajustes foram feitos na semana 28/05 até 03/06.
 -- Não disponibilizou o modelo treinado.
 
-- Montar um dataset
+- Montar um dataset de perguntas x queries
 -- 
 -- 
+
+- Outros
+-- Seq2Seq 
+--- https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
+--- http://emnlp2014.org/papers/pdf/EMNLP2014179.pdf
+
+
