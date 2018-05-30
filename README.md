@@ -31,7 +31,12 @@
 
 
 - estou tentando fazer o script python extract_vocab.py rodar. Estou baixando o glove.42B.300z.zip. Depois vou extrair e rodar o script de novo.
+- conseguir rodar o treinamento toy (interrompi na epoch 7) e depois o teste
+- https://github.com/matheuss/google-translate-api
 
+- Preciso escrever o que fiz até agora
+- Preciso pensar em como montar o dataset
+- Acredito que a principal entrega desse trabalho será um dataset
 
 
 
