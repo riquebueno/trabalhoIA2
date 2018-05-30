@@ -11,8 +11,8 @@
 -- Não disponibilizou o modelo treinado.
 
 - Montar um dataset de perguntas x queries
--- 
--- 
+-- FORMATO
+--- NOME_CONCEITO COD_CONCEITO NOME_ATRIBUTO COD_ATRIBUTO NOME_TIPO_ATRIBUTO COD_TIPO_ATRIBUTO NOME_OPERADOR COD_OPERADOR 
 
 - Outros
 -- Seq2Seq 
