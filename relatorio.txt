@@ -19,4 +19,15 @@
 --- https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
 --- http://emnlp2014.org/papers/pdf/EMNLP2014179.pdf
 
+Para a realização dos objetivos listados anteriormente são
+propostas as atividades abaixo:
+• Passo 1: https://github.com/salesforce/WikiSQL
+• Passo 2: https://github.com/xiaojunxu/SQLNet
+• Passo 3: Preparar uma base de dados para treinamento no contexto
+do SVIS e BDIC.
+• Passo 4: Avaliar a aplicação das técnicas propostas no artigo no
+problema de conversão de consultas em linguagem natural para
+consultas sobre o metamodelo do SVIS, permitindo que usuários
+expressem suas consultas em linguagem natural.
+
 
