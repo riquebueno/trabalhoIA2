@@ -25,6 +25,11 @@
 --- OP: ok (depende de COLUNA)
 --- VALOR: ok (depende de COLUNA e OPERADOR)
 
+===========================
+===========================
+ENVIAR EMAIL PARA AUTOR DO SQLNET PEDINDO O MODELO TREINADO
+===========================
+===========================
 
 
 - Outros
