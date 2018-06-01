@@ -13,10 +13,19 @@
 - Montar um dataset de perguntas x queries
 -- FORMATO
 --- NOME_CONCEITO COD_CONCEITO NOME_ATRIBUTO COD_ATRIBUTO NOME_TIPO_ATRIBUTO COD_TIPO_ATRIBUTO NOME_OPERADOR COD_OPERADOR 
--- 
--- SELECT COLUNA (, COLUNA)*
--- FROM TABELA
--- WHERE COLUNA OP VALOR (AND|OR COLUNA OP VALOR)*
+
+-- Formato da query:
+--- SELECT COLUNA (, COLUNA)*
+--- FROM TABELA
+--- WHERE COLUNA OP VALOR (AND|OR COLUNA OP VALOR)*
+
+-- Dependências na query:
+--- TABELA: ok (não depende de nenhum outro label)
+--- COLUNA: ok (depende de TABELA)
+--- OP: ok (depende de COLUNA)
+--- VALOR: ok (depende de COLUNA e OPERADOR)
+
+
 
 - Outros
 -- Seq2Seq 
