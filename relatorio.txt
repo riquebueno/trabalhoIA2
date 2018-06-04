@@ -25,9 +25,38 @@
 --- OP: ok (depende de COLUNA)
 --- VALOR: ok (depende de COLUNA e OPERADOR)
 
+
+
+-Cada tabela só aparece na base de treinamento, desenvolvimento ou de teste
+-- The queries in WikiSQL span over a large number of tables and hence presents an unique challenge: the model must be able to not only generalize to new queries, but to new table schema.
+-- The tables, their paraphrases, and SQL queries are randomly slotted into train, dev, and test splits, such that each table is present in exactly one split.
+
+Procedimento de criação de registros para dataset{
+  Escolha uma tabela T;
+  Colunas das cláusulas "select" e "where" serão independentes?
+  Sim{
+    1: Escolha a qtd k de colunas da cláusula select;
+    2: Escolha k colunas da tabela T. OBS: as qtds de colunas das tabelas variam;
+    3: Escolha Q a quantidade de restrições da cláusula "WHERE";
+    4: Escolha Q colunas da tabela T;
+    5: Para cada uma das Q colunas, escolha P operadores OBS: os valores serão fixos.
+  }
+  Não{
+    1: Igual;
+    2: Igual;
+    3': Escolha Q a quantidade de restrições da cláusula "WHERE" onde 1<=Q<=K;
+    4': Escolha Q colunas da tabela T onde esse conjunto seja subconjunto das colunas escolhidas em 2;
+    5: Igual.
+  }
+}
+
+We collect WikiSQL by crowd-sourcing on Amazon Mechanical Turk in two phases.
+
+
+
 ===========================
 ===========================
-ENVIAR EMAIL PARA AUTOR DO SQLNET PEDINDO O MODELO TREINADO
+ENVIAR EMAIL PARA AUTOR DO SQLNET PEDINDO O MODELO TREINADO - done
 ===========================
 ===========================
 
