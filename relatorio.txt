@@ -6,13 +6,22 @@ Instituto de Computação - Pós-Graduação
 Resumo
 ======
 
+Blá blá blá
 
 Introdução
 ==========
 
+<RESUMIR A APRESENTAÇÃO DA PARTE 1 DO TRABALHO>
+
+Para a realização dos objetivos listados anteriormente são propostas as atividades abaixo:
+• Passo 1: https://github.com/salesforce/WikiSQL
+• Passo 2: https://github.com/xiaojunxu/SQLNet
+• Passo 3: Preparar uma base de dados para treinamento no contexto do SVIS e BDIC.
+• Passo 4: Avaliar a aplicação das técnicas propostas no artigo no problema de conversão de consultas em linguagem natural para consultas sobre o metamodelo do SVIS, permitindo que usuários expressem suas consultas em linguagem natural.
 
 Avaliação WikiSQL
 =================
+
 Rodei Seq2SQL. Entendi a estrutura do WikiSQL.
 
 Cada tabela só aparece na base de treinamento, desenvolvimento ou de teste: The queries in WikiSQL span over a large number of tables and hence presents an unique challenge: the model must be able to not only generalize to new queries, but to new table schema. The tables, their paraphrases, and SQL queries are randomly slotted into train, dev, and test splits, such that each table is present in exactly one split.
@@ -21,17 +30,18 @@ We collect WikiSQL by crowd-sourcing on Amazon Mechanical Turk in two phases.
 
 Avaliação SQLNet
 ================
+
 Código para rodar com CPU estava com erro.
 Não estava identificando que não havia GPU, apesar do código estar previsto para isso.
 Python 2.7 dificultou o processo.
 Aparentemente não houve testes para versão com CPU.
 Ajustes foram feitos na semana 28/05 até 03/06.
-Não disponibilizou o modelo treinado.
+Não disponibilizou o modelo treinado. Criei uma issue no git do projeto solicitando o modelo treinado.
 
+<CASO EU CONSIGA O MODELO, PRECISAREI FORMATAR MEUS SCHEMAS E MINHAS PERGUNTAS PARA O FORMATO DE ENTRADA ESPERADO PELO TEST.PY>
 
-
-Criação do Dataset
-==================
+Proposta de criação de um dataset
+=================================
 
 O objetivo é montar um dataset de perguntas x queries.
 
@@ -73,9 +83,16 @@ Procedimento de criação de registros para dataset{
   }
 }
 
+Avaliação de uma rede neural para tradução
+==========================================
+
+https://github.com/matheuss/google-translate-api
+
 Conclusão e Trabalhos Futuros
 =============================
-Investivar outros artigos que tratam do tema e já obtiveram melhores resultados.
+
+Investigar outros artigos que tratam do tema e já obtiveram melhores resultados.
+Evoluir o Dataset.
 
 Referências
 ===========
@@ -83,35 +100,3 @@ Referências
 [] WikiSQL
 [] SQLNet
 [] Seq2Seq: https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf e http://emnlp2014.org/papers/pdf/EMNLP2014179.pdf
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Para a realização dos objetivos listados anteriormente são
-propostas as atividades abaixo:
-• Passo 1: https://github.com/salesforce/WikiSQL
-• Passo 2: https://github.com/xiaojunxu/SQLNet
-• Passo 3: Preparar uma base de dados para treinamento no contexto
-do SVIS e BDIC.
-• Passo 4: Avaliar a aplicação das técnicas propostas no artigo no
-problema de conversão de consultas em linguagem natural para
-consultas sobre o metamodelo do SVIS, permitindo que usuários
-expressem suas consultas em linguagem natural.
-
-
