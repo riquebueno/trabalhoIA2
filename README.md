@@ -10,8 +10,7 @@
 -- conversar com Aline sobre nova proposta para o trabalho (foco na montagem do dataset, talvez não consiga rodar muita coisa), 
 -- começar a implementar código que gerará o dataset. 
 - Week 5: 18/06 até 24/06
-- Week 6: 25/06 até 27/06
-- APRESENTAÇÃO: 28/06
+- Week 6: 25/06 até 27/06 - APRESENTAÇÃO: 28/06
 
 # TO DO
 - Rodando WikiSQL ok
