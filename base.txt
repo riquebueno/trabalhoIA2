@@ -1,0 +1,66 @@
+{
+"page_title": "1992\u201393 Phoenix Suns season", 
+"section_title": "Game log", 
+"id": "1-13619027-9", 
+"header": ["Game", "Date", "Team", "Score", "High points", "High rebounds", "High assists", "Location Attendance", "Record"], 
+"types": ["real", "text", "text", "text", "text", "text", "text", "text", "text"]
+"header_tok_space": [[""], [""], [""], [""], [" ", ""], [" ", ""], [" ", ""], [" ", ""], [""]], 
+"name": "table_13619027_9", 
+"header_tok": [["game"], ["date"], ["team"], ["score"], ["high", "points"], ["high", "rebounds"], ["high", "assists"], ["location", "attendance"], ["record"]], 
+"caption": "Game log", 
+"rows": [[53, "March 2", "@ Portland", "L 97\u2013102", "Charles Barkley , Dan Majerle (20)", "Charles Barkley (12)", "Dan Majerle (7)", "Memorial Coliseum 12,888", "40\u201313"], 
+		[54, "March 3", "Philadelphia", "W 125\u2013115", "Charles Barkley (36)", "Charles Barkley (17)", "Charles Barkley (9)", "America West Arena 19,023", "41\u201313"], 
+		[55, "March 5", "Sacramento", "W 130\u2013122", "Charles Barkley (32)", "Mark West (12)", "Kevin Johnson (6)", "America West Arena 19,023", "42\u201313"], 
+		[56, "March 6", "@ Dallas", "W 109\u2013102", "Kevin Johnson (28)", "Charles Barkley (15)", "Kevin Johnson (7)", "Reunion Arena 17,502", "43\u201313"], 
+		[57, "March 9", "@ Sacramento", "W 128\u2013108", "Cedric Ceballos (40)", "Cedric Ceballos (12)", "Kevin Johnson (12)", "ARCO Arena 17,317", "44\u201313"], 
+		[58, "March 10", "Golden State", "W 111\u2013100", "Charles Barkley (30)", "Mark West (13)", "Kevin Johnson (8)", "America West Arena 19,023", "45\u201313"], 
+		[59, "March 12", "Dallas", "W 116\u201398", "Cedric Ceballos (24)", "Charles Barkley , Cedric Ceballos (9)", "Kevin Johnson (9)", "America West Arena 19,023", "46\u201313"], 
+		[60, "March 13", "New Jersey", "L 93\u2013124", "Kevin Johnson (23)", "Cedric Ceballos , Tom Chambers , Jerrod Mustaf (7)", "Kevin Johnson (6)", "America West Arena 19,023", "46\u201314"], 
+		[61, "March 17", "Portland", "W 129\u2013111", "Cedric Ceballos , Tom Chambers (24)", "Cedric Ceballos (14)", "Kevin Johnson (14)", "America West Arena 19,023", "47\u201314"], 
+		[62, "March 19", "Detroit", "W 127\u201397", "Danny Ainge (23)", "Charles Barkley (16)", "Dan Majerle (9)", "America West Arena 19,023", "48\u201314"], 
+		[63, "March 21", "Indiana", "L 108\u2013109", "Charles Barkley (38)", "Charles Barkley , Mark West (9)", "Kevin Johnson (11)", "America West Arena 19,023", "48\u201315"], 
+		[64, "March 23", "New York", "W 121\u201392", "Charles Barkley (31)", "Cedric Ceballos (12)", "Frank Johnson (7)", "America West Arena 19,023", "49\u201315"], 
+		[65, "March 24", "@ L.A. Lakers", "W 120\u2013105", "Charles Barkley (33)", "Charles Barkley (12)", "Charles Barkley (8)", "Great Western Forum 17,505", "50\u201315"], 
+		[66, "March 26", "Milwaukee", "W 109\u2013103", "Charles Barkley (31)", "Charles Barkley (15)", "Frank Johnson (8)", "America West Arena 19,023", "51\u201315"], 
+		[67, "March 28", "@ Philadelphia", "W 110\u2013100", "Charles Barkley (35)", "Cedric Ceballos (15)", "Kevin Johnson (8)", "The Spectrum 18,168", "52\u201315"]], 
+}
+
+{
+"id": "1",
+"page_title": "wells", 
+"caption": "wells", 
+"name": "wells", 
+"section_title": "wells", 
+"header": ["Sigla poço","Data término perfuração","Status","Município","Nome Contrato","Nome bloco","Direção","Profundidade medida prevista","Lâmina água prevista","Distância da costa","Lâmina água","Profundidade final perfilagem","Unidade responsável","Altura mesa rotativa"],
+"types": ["text","text","text","text","text","text","text","real","real","real","real","real","text","text"],
+"header_tok_space": [[" ", ""],[" ", " ", ""],[""],[""],[" ", ""],[" ", ""],[""],[" ", " ", ""],[" ", " ", ""],[" ", " ", ""],[" ", ""],[" ", " ", ""],[" ", ""],[" ", " ", ""]],
+"header_tok": [["Sigla", "poço"], ["Data", "término", "perfuração"], ["Status"], ["Município"], ["Nome", "Contrato"], ["Nome", "bloco"], ["Direção"], ["Profundidade", "medida", "prevista"], ["Lâmina", "água", "prevista"], ["Distância", "da", "costa"], ["Lâmina", "água"], ["Profundidade", "final", "perfilagem"], ["Unidade", "responsável"], ["Altura", "mesa", "rotativa"]], 
+"rows": [['2-ANP-2-RJS', '26/06/2010', 'ABANDONADO PERMANENTEMENTE', '', '', '', 'VERTICAL', , 1965, 183000, 1968, 3170, 'EXP', 18],
+		['2-ANP-2A-RJS', '07/12/2010', 'ABANDONADO POR LOGÍSTICA EXPLORATÓRIA', '', 'BS-4', 'BS-4', 'VERTICAL', , 1965, 183000, 1967, 6029,3, 'EXP', 18],
+		['3-RJS-739', '07/05/2015', 'ABANDONADO PERMANENTEMENTE', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 5850, 1952, 206000, 1951, 3084, 'EXP', 24],
+		['3-RJS-739A', '16/10/2015', 'EM INTERVENÇÃO PARA AVALIAÇÃO, COMPLETAÇÃO OU RESTAURAÇÃO', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 5850, 1952, 206000, 1950, 5872, 'EXP', 24],
+		['1-SHEL-5-RJS', '04/05/2001', 'ABANDONADO PERMANENTEMENTE', '', 'BS-4', 'BS-4', 'VERTICAL', 4428, , , 1881, 3976, 'LIBRA', 38],
+		['3-RJS-741', '25/02/2016', 'EM OBSERVAÇÃO', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 5850, 1913, 177000, 1913, 5798, 'EXP', 24],
+		['3-RJS-749D', '13/03/2018', 'ABANDONADO TEMPORARIAMENTE SEM MONITORAMENTO', '', 'LIBRA_P1', 'LIBRA', 'DIRECIONAL', , 1991, 185000, 1989, 5942,6, 'LIBRA', 24],
+		['3-RJS-751D', '26/12/2017', 'EQUIPADO AGUARDANDO INÍCIO DA OPERAÇÃO', '', 'LIBRA_P1', 'LIBRA', 'DIRECIONAL', 6243, 1968, 189000, 1973, 6188,6, 'LIBRA', 24],
+		['7-MRO-3-RJS', '', 'ABANDONADO TEMPORARIAMENTE SEM MONITORAMENTO', '', 'LIBRA_P1', 'MERO', 'VERTICAL', , 2010, 177000, 2011, 5812,6, 'LIBRA', 24],
+		['9-MRO-2-RJS', '', 'EM PERFURAÇÃO', '', 'LIBRA_P1', 'MERO', 'VERTICAL', 5945, 2030, 193000, 2062, , 'LIBRA', 24],
+		['9-MRO-1-RJS', '', 'EM PERFURAÇÃO', '', 'LIBRA_P1', 'MERO', 'VERTICAL', , 1847, 176000, 1843, , 'LIBRA', 25],
+		['3-RJS-731', '07/11/2014', 'EQUIPADO AGUARDANDO INÍCIO DA OPERAÇÃO', '', 'LIBRA_P1', 'LIBRA', 'VERTICAL', , 1970, 172000, 1963, 5736, 'EXP', 26],
+		['3-RJS-731I', '08/08/2014', 'ABANDONADO PERMANENTEMENTE', '', 'LIBRA_P1', 'LIBRA', 'VERTICAL', , 1970, 172000, 1963, 3129, 'EXP', 26],
+		['3-RJS-745', '26/07/2017', 'EM OBSERVAÇÃO', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', , 2085, 196000, 2086, 5881, 'LIBRA', 25],
+		['3-RJS-747', '24/08/2017', 'EM OBSERVAÇÃO', '', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 5850, 2100, 178000, 2098, 5884,2, 'LIBRA', 24],
+		['3-RJS-748D', '22/11/2017', 'EM OBSERVAÇÃO', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'DIRECIONAL', , 2010, 184000, 2008, 5969,1, 'LIBRA', 25],
+		['3-RJS-742', '16/02/2016', 'ABANDONADO PERMANENTEMENTE', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 5900, 2032, 190000, 2033, 3049, 'EXP', 24],
+		['3-RJS-742A', '31/05/2016', 'INJETANDO', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 5900, 2032, 190000, 2033, 5870,5, 'EXP', 24],
+		['3-RJS-743I', '16/04/2016', 'ABANDONADO PERMANENTEMENTE', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 2825, 2000, 183000, 1996, 2873, 'LIBRA', 24],
+		['3-RJS-743', '23/04/2016', 'ABANDONADO PERMANENTEMENTE', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 5900, 2000, 183000, 1998, 2143, 'LIBRA', 24],
+		['3-RJS-743A', '26/06/2016', 'EM OBSERVAÇÃO', '', 'LIBRA_P1', 'LIBRA', 'VERTICAL', , 2000, 183000, 1998, 5879,5, 'LIBRA', 24],
+		['3-RJS-744', '24/10/2016', 'EM OBSERVAÇÃO', 'RIO DE JANEIRO', 'LIBRA_P1', 'LIBRA', 'VERTICAL', 5900, 2030, , 2026, 5777, 'LIBRA', 24]]
+}
+
+
+
+
+
+

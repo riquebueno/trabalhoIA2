@@ -1,0 +1,81 @@
+{"question": "What is terrence ross' nationality", "query_tok": ["SELECT", "nationality", "WHERE", "player", "EQL", "terrence", "ross"], "query_tok_space": [" ", " ", " ", " ", " ", " ", ""], "table_id": "1-10015132-16", "question_tok_space": [" ", " ", " ", "", " ", ""], "sql": {"agg": 0, "sel": 2, "conds": [[0, 0, "Terrence Ross"]]}, "phase": 1, "query": "SELECT nationality WHERE player EQL terrence ross", "question_tok": ["what", "is", "terrence", "ross", "'", "nationality"]}
+{"question": "What clu was in toronto 1995-96", "query_tok": ["SELECT", "school/club", "team", "WHERE", "years", "in", "toronto", "EQL", "1995-96"], "query_tok_space": [" ", " ", " ", " ", " ", " ", " ", " ", ""], "table_id": "1-10015132-16", "question_tok_space": [" ", " ", " ", " ", " ", ""], "sql": {"agg": 0, "sel": 5, "conds": [[4, 0, "1995-96"]]}, "phase": 1, "query": "SELECT school/club team WHERE years in toronto EQL 1995-96", "question_tok": ["what", "clu", "was", "in", "toronto", "1995-96"]}
+{"question": "which club was in toronto 2003-06", "query_tok": ["SELECT", "school/club", "team", "WHERE", "years", "in", "toronto", "EQL", "2003-06"], "query_tok_space": [" ", " ", " ", " ", " ", " ", " ", " ", ""], "table_id": "1-10015132-16", "question_tok_space": [" ", " ", " ", " ", " ", ""], "sql": {"agg": 0, "sel": 5, "conds": [[4, 0, "2003-06"]]}, "phase": 1, "query": "SELECT school/club team WHERE years in toronto EQL 2003-06", "question_tok": ["which", "club", "was", "in", "toronto", "2003-06"]}
+{"question": "how many schools or teams had jalen rose", "query_tok": ["SELECT", "count", "(", "school/club", "team", ")", "WHERE", "player", "EQL", "jalen", "rose"], "query_tok_space": [" ", "", "", " ", "", " ", " ", " ", " ", " ", ""], "table_id": "1-10015132-16", "question_tok_space": [" ", " ", " ", " ", " ", " ", " ", ""], "sql": {"agg": 3, "sel": 5, "conds": [[0, 0, "Jalen Rose"]]}, "phase": 1, "query": "SELECT count(school/club team) WHERE player EQL jalen rose", "question_tok": ["how", "many", "schools", "or", "teams", "had", "jalen", "rose"]}
+{"question": "Where was Assen held?", "query_tok": ["SELECT", "round", "WHERE", "circuit", "EQL", "assen"], "query_tok_space": [" ", " ", " ", " ", " ", ""], "table_id": "1-10083598-1", "question_tok_space": [" ", " ", " ", "", ""], "sql": {"agg": 0, "sel": 2, "conds": [[3, 0, "Assen"]]}, "phase": 1, "query": "SELECT round WHERE circuit EQL assen", "question_tok": ["where", "was", "assen", "held", "?"]}
+
+
+
+
+
+{
+"phase": 1, 
+"table_id": "1-10015132-16", 
+
+"question": "What is terrence ross' nationality", 
+"question_tok": ["what", "is", "terrence", "ross", "'", "nationality"]}
+"question_tok_space": [" ", " ", " ", "", " ", ""], 
+
+"query": "SELECT nationality WHERE player EQL terrence ross", 
+"query_tok_space": [" ", " ", " ", " ", " ", " ", ""],
+"query_tok": ["SELECT", "nationality", "WHERE", "player", "EQL", "terrence", "ross"], 
+"sql": {"agg": 0, "sel": 2, "conds": [[0, 0, "Terrence Ross"]]
+}, 
+
+
+========================================================================================
+
+
+What are the Sigla poço that Unidade responsável equals LIBRA
+Select Sigla poço of the wells that have the Distância da costa greater than 184,000
+Which Sigla poço that have vertical Direção
+
+========================================================================================
+What are the Sigla poço that Unidade responsável equals LIBRA?
+
+{
+"phase": 1, 
+"table_id": "1", 
+"question": "What are the Sigla poço that Unidade responsável equals LIBRA", 
+"question_tok": ["What","are","the","Sigla","poço","that","Unidade","responsável","equals","LIBRA"],
+"question_tok_space": [" ", " ", " ", " ", " ", " ", " ", " ", " ", ""], 
+"query": "SELECT Sigla poço WHERE Unidade responsável EQL LIBRA", 
+"query_tok_space": [" ", " ", " ", " ", " ", " ", " ", ""],
+"query_tok": ["SELECT", "Sigla", "poço", "WHERE", "Unidade", "responsável", "EQL", "LIBRA"], 
+"sql": {"agg": 0, "sel": 0, "conds": [[12, 0, "LIBRA"]]}
+}, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
