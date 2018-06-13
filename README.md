@@ -16,6 +16,13 @@
 - Rodando WikiSQL ok
 - Rodando SQLNet ok 
 
+# Erro não encontra Torch
+pip uninstall torch torchvision
+conda uninstall pytorch
+source activate py27
+pip install torch torchvision
+python2.7 train.py --ca
+
 
 - Montar arquitetura geral da solução: quantas redes? qual será a base? vai rolar tradução? vai testar na prática?
 - ok Estudar/Executar SQLNet
